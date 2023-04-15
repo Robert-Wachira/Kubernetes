@@ -15,7 +15,7 @@ spec:
         app: web-app
     spec:
       containers:
-      - name: node
+      - name: web-app
         image: <your-node-image>
         ports:
         - containerPort: 3000
